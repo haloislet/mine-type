@@ -1,6 +1,7 @@
 {
   "include": ["src", "types"],
   "compilerOptions": {
+    "downlevelIteration": true,
     "resolveJsonModule": true,
     "module": "esnext",
     "lib": ["dom", "esnext"],
