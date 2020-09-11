@@ -30,7 +30,7 @@ const extMineMap = Object.keys(mineExtMap).reduce(
   {}
 );
 class Mine {
-  static getMine(ext: string): Array<string> {
+  static getMine(ext: string): string[] {
     return extMineMap[ext];
   }
   static getExt(mine: string): string[] {
