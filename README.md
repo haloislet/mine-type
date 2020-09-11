@@ -1,0 +1,1 @@
+# mine type for node
